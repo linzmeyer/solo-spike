@@ -22,11 +22,13 @@ class App extends Component {
         <hr></hr>
 
         {/* Navigation */}
-        <nav>
-          <li><FontAwesomeIcon icon="home" /><a href="#">Home</a></li>
-          <li><FontAwesomeIcon icon="info-circle" /><a href="#">About</a></li>
-          <li><FontAwesomeIcon icon="people-carry" /><a href="#">Services</a></li>
-          <li><FontAwesomeIcon icon={["far", "address-book"]} /><a href="#">Contact</a></li>
+        <nav className="main-nav">
+          <ul>
+            <li><FontAwesomeIcon icon="home" /><a href="#">Home</a></li>
+            <li><FontAwesomeIcon icon="info-circle" /><a href="#">About</a></li>
+            <li><FontAwesomeIcon icon="people-carry" /><a href="#">Services</a></li>
+            <li><FontAwesomeIcon icon={["far", "address-book"]} /><a href="#">Contact</a></li>
+          </ul>
         </nav>
 
         {/* Top Container */}
@@ -76,7 +78,7 @@ class App extends Component {
 
         {/* Info Section */}
         <section className="info">
-          <img src='./img/web1.jpg' alt="..." />
+          <img src='./img/pic1.jpg' alt="..." />
           <div>
             <h2> Your Business On The Web</h2>
             <p>
@@ -87,7 +89,7 @@ class App extends Component {
         </section>
 
         {/* Portfolio */}
-        <section>
+        <section className="portfolio">
           <img src="https://source.unsplash.com/random/200x200" alt="..." />
           <img src="https://source.unsplash.com/random/201x200" alt="..." />
           <img src="https://source.unsplash.com/random/202x200" alt="..." />
