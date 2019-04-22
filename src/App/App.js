@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="wrapper">
 
-        <div>
+        <div className="all-icons" >
           <h4>All Icons:</h4>
           <FontAwesomeIcon icon={['fab', 'apple']} />
           <FontAwesomeIcon icon={['fab', 'microsoft']} />
@@ -36,7 +36,7 @@ class App extends Component {
           <header className="showcase">
             <h1>Your Web Presence</h1>
             <p>
-              Fugiat nulla laborum sunt reprehenderit nulla sit sunt sit velit enim pariatur dolore proident. Quis deserunt ullamco do amet excepteur cillum aliquip eiusmod. Voluptate ad ut enim sint sit laboris sint amet exercitation velit elit.
+              Fugiat nulla laborum sunt reprehenderit nulla sit sunt sit velit enim pariatur dolore proident.
             </p>
             <a href="#" className="btn" >Read More</a>
           </header>
