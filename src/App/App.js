@@ -9,25 +9,19 @@ class App extends Component {
     return (
       <div className="wrapper">
 
-        <div className="all-icons" >
-          <h4>All Icons:</h4>
-          <FontAwesomeIcon icon={['fab', 'apple']} />
-          <FontAwesomeIcon icon={['fab', 'microsoft']} />
-          <FontAwesomeIcon icon={['fab', 'google']} />
-          <FontAwesomeIcon icon={"coffee"} />
-          <FontAwesomeIcon icon="check-square" />
-          <FontAwesomeIcon icon="anchor" spin />
-          <FontAwesomeIcon icon={['fab', 'react']} size='10x'/>
-        </div>
-        <hr></hr>
-
         {/* Navigation */}
+        {/* 
+          
+          
+          
+          
+        */}
         <nav className="main-nav">
           <ul>
-            <li><FontAwesomeIcon icon="home" /><a href="#">Home</a></li>
-            <li><FontAwesomeIcon icon="info-circle" /><a href="#">About</a></li>
-            <li><FontAwesomeIcon icon="people-carry" /><a href="#">Services</a></li>
-            <li><FontAwesomeIcon icon={["far", "address-book"]} /><a href="#">Contact</a></li>
+            <li><a href="#"><FontAwesomeIcon icon="home" /> Home</a></li>
+            <li><a href="#"><FontAwesomeIcon icon="info-circle" /> About</a></li>
+            <li><a href="#"><FontAwesomeIcon icon="people-carry" /> Services</a></li>
+            <li><a href="#"><FontAwesomeIcon icon={["far", "address-book"]} /> Contact</a></li>
           </ul>
         </nav>
 
@@ -105,6 +99,12 @@ class App extends Component {
         <footer>
           <p>GridBiz <FontAwesomeIcon icon="copyright" size="xs" /> 2018</p>
         </footer>
+
+        <div className="all-icons" >
+          <div className='react-icon' >
+            <FontAwesomeIcon icon={['fab', 'react']} size='10x' spin />
+          </div>
+        </div>
         {/* Wrapper ends */}
       </div>
     );
